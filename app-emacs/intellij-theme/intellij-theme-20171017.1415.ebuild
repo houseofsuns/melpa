@@ -12,7 +12,7 @@ inherit g-sorcery gs-elpa
 
 DESCRIPTION="Inspired by IntelliJ's default theme"
 
-HOMEPAGE="https://gitlab.com/fommil/emacs-intellij-theme"
+HOMEPAGE="https://github.com/fommil/intellij-theme.el"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
