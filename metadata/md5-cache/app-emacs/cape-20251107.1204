@@ -1,12 +1,13 @@
 BDEPEND=>=app-editors/emacs-25.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DESCRIPTION=An address book based on Standard Emacs bookmarks
+DEPEND=app-emacs/compat
+DESCRIPTION=Completion At Point Extensions
 EAPI=8
-HOMEPAGE=https://github.com/thierryvolpiatto/addressbook-bookmark
+HOMEPAGE=https://github.com/minad/cape
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
-RDEPEND=>=app-editors/emacs-25.3:*
+RDEPEND=app-emacs/compat >=app-editors/emacs-25.3:*
 SLOT=0
-SRC_URI=https://melpa.org/packages/addressbook-bookmark-20250803.408.tar
+SRC_URI=https://melpa.org/packages/cape-20251107.1204.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	fe05085d051330f15cf7201109b5cd23	elisp	8dfc7a00348fe9c91895014adc78a4a5	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=3475861f2fb7f73ed3812672a2a9ec39
+_md5_=9c080c28b03b0d8a24bb9ce2fea03729

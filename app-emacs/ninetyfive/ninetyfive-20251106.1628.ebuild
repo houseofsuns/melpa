@@ -18,5 +18,7 @@ SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/websocket"
-RDEPEND="app-emacs/websocket"
+DEPEND="app-emacs/websocket
+	app-emacs/async"
+RDEPEND="app-emacs/websocket
+	app-emacs/async"
