@@ -12,7 +12,7 @@ inherit g-sorcery gs-elpa
 
 DESCRIPTION="Plain theme without syntax highlighting"
 
-HOMEPAGE="https://github.com/lukateras/plain-theme"
+HOMEPAGE="https://github.com/yegortimoshenko/plain-theme"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
