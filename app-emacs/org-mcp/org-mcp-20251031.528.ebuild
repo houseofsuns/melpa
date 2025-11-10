@@ -5,18 +5,18 @@ EAPI=8
 
 REPO_URI="https://melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="visible-mark"
+REALNAME="org-mcp"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Make marks visible"
+DESCRIPTION="MCP server for Org-mode"
 
-HOMEPAGE="https://gitlab.com/iankelling/visible-mark"
+HOMEPAGE="https://github.com/laurynas-biveinis/org-mcp"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND=""
-RDEPEND=""
+DEPEND="app-emacs/mcp-server-lib"
+RDEPEND="app-emacs/mcp-server-lib"
