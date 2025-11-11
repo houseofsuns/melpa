@@ -1,12 +1,13 @@
 BDEPEND=>=app-editors/emacs-25.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DESCRIPTION=Emacs Toolbar Support for SF Symbols
+DEPEND=app-emacs/compat app-emacs/transient
+DESCRIPTION=Various transient menus
 EAPI=8
-HOMEPAGE=https://github.com/kickingvegas/calle24
+HOMEPAGE=https://github.com/tarsius/tray
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
-RDEPEND=>=app-editors/emacs-25.3:*
+RDEPEND=app-emacs/compat app-emacs/transient >=app-editors/emacs-25.3:*
 SLOT=0
-SRC_URI=https://melpa.org/packages/calle24-20251102.2221.tar
+SRC_URI=https://melpa.org/packages/tray-20251111.1731.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	fe05085d051330f15cf7201109b5cd23	elisp	8dfc7a00348fe9c91895014adc78a4a5	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=ec8a4e02d5acad3d16e39d0f8ddb4425
+_md5_=3061aee01cbfcb81d84d22d3d84b30a3
