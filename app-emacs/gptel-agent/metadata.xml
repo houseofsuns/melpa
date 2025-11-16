@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Tramp-like access to s3</longdescription>
+	<longdescription>Agentic LLM use for gptel</longdescription>
 </pkgmetadata>

@@ -5,20 +5,18 @@ EAPI=8
 
 REPO_URI="https://melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="s3ed"
+REALNAME="org-tag-tree"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Tramp-like access to s3"
+DESCRIPTION="Define Org-mode tag hierarchies from Org subtrees"
 
-HOMEPAGE="https://github.com/mattusifer/s3ed"
+HOMEPAGE="https://github.com/p-snow/org-tag-tree"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/dash
-	app-emacs/s"
-RDEPEND="app-emacs/dash
-	app-emacs/s"
+DEPEND="app-emacs/org-mode"
+RDEPEND="app-emacs/org-mode"
