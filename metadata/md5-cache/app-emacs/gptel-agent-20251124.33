@@ -1,0 +1,13 @@
+BDEPEND=>=app-editors/emacs-25.3:*
+DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
+DEPEND=app-emacs/compat app-emacs/gptel app-emacs/yaml app-emacs/orderless
+DESCRIPTION=Agentic LLM use for gptel
+EAPI=8
+HOMEPAGE=https://github.com/karthink/gptel-agent
+INHERIT=g-sorcery gs-elpa
+KEYWORDS=~amd64 ~x86
+RDEPEND=app-emacs/compat app-emacs/gptel app-emacs/yaml app-emacs/orderless >=app-editors/emacs-25.3:*
+SLOT=0
+SRC_URI=https://melpa.org/packages/gptel-agent-20251124.33.tar
+_eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	fe05085d051330f15cf7201109b5cd23	elisp	8dfc7a00348fe9c91895014adc78a4a5	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
+_md5_=f852cc9976b562b2d158b3f4ead98d3d
