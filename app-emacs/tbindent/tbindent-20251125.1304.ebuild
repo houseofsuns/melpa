@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Tab Based Indentation Converter"
+DESCRIPTION="Edit space-indented file in tab-indented buffer"
 
 HOMEPAGE="https://github.com/pierre-rouleau/tab-based-indent"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
