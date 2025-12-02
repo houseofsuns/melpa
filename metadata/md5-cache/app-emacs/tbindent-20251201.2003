@@ -1,12 +1,12 @@
 BDEPEND=>=app-editors/emacs-25.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DESCRIPTION=A unified method to fold and unfold text
+DESCRIPTION=Edit space-indented file in tab-indented buffer
 EAPI=8
-HOMEPAGE=https://github.com/jamescherti/kirigami.el
+HOMEPAGE=https://github.com/pierre-rouleau/tab-based-indent
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
 RDEPEND=>=app-editors/emacs-25.3:*
 SLOT=0
-SRC_URI=https://melpa.org/packages/kirigami-20251129.1955.tar
+SRC_URI=https://melpa.org/packages/tbindent-20251201.2003.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	fe05085d051330f15cf7201109b5cd23	elisp	8dfc7a00348fe9c91895014adc78a4a5	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=a77a28e1645a8a698351e0bb80493c70
+_md5_=f4f27c55bc7b6f923624ce89387c5de0
