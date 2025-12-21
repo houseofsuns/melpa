@@ -1,0 +1,13 @@
+BDEPEND=>=app-editors/emacs-25.3:*
+DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
+DEPEND=app-emacs/python app-emacs/folding app-emacs/compat
+DESCRIPTION=Python.el extras for interactive evaluation
+EAPI=8
+HOMEPAGE=https://gitlab.com/wavexx/python-x.el
+INHERIT=g-sorcery gs-elpa
+KEYWORDS=~amd64 ~x86
+RDEPEND=app-emacs/python app-emacs/folding app-emacs/compat >=app-editors/emacs-25.3:*
+SLOT=0
+SRC_URI=https://melpa.org/packages/python-x-20251219.1134.tar
+_eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	fe05085d051330f15cf7201109b5cd23	elisp	8dfc7a00348fe9c91895014adc78a4a5	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
+_md5_=6f3922787413871e2f19c2ed2d31d0ce
