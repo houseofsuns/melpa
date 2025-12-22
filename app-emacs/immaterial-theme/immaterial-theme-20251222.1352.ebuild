@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="A flexible theme based on material design principles"
+DESCRIPTION="A family of themes loosely based on material colors"
 
 HOMEPAGE="https://github.com/petergardfjall/emacs-immaterial-theme"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
@@ -18,5 +18,5 @@ SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND=""
-RDEPEND=""
+DEPEND="app-emacs/modus-themes"
+RDEPEND="app-emacs/modus-themes"
