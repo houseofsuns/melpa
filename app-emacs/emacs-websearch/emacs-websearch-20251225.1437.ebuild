@@ -5,14 +5,14 @@ EAPI=8
 
 REPO_URI="https://melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="el-fetch"
+REALNAME="websearch"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Show system information in Neofetch-like style (eg CPU, RAM)"
+DESCRIPTION="Query search engines"
 
-HOMEPAGE="https://gitlab.com/xgqt/emacs-el-fetch"
+HOMEPAGE="https://gitlab.com/xgqt/xgqt-elisp-lib-websearch"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
