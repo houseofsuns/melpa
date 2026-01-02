@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Directional navigation between white-space blocks</longdescription>
+	<longdescription>Directional navigation between blank-space blocks</longdescription>
 </pkgmetadata>
