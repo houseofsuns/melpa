@@ -1,12 +1,13 @@
 BDEPEND=>=app-editors/emacs-25.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DESCRIPTION=Tree-sitter support for OpenSCAD
+DEPEND=app-emacs/gptel
+DESCRIPTION=LLM implementation toolset
 EAPI=8
-HOMEPAGE=https://github.com/yoshinari-nomura/scad-ts-mode
+HOMEPAGE=https://github.com/kmontag/macher
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
-RDEPEND=>=app-editors/emacs-25.3:*
+RDEPEND=app-emacs/gptel >=app-editors/emacs-25.3:*
 SLOT=0
-SRC_URI=https://melpa.org/packages/scad-ts-mode-20260103.726.tar
+SRC_URI=https://melpa.org/packages/macher-20260107.2043.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	fe05085d051330f15cf7201109b5cd23	elisp	8dfc7a00348fe9c91895014adc78a4a5	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=b268fbd57382f4636939fab7e10d5b9d
+_md5_=eb9f09dc3c6f64883b8cfa4c46c4c2a4
