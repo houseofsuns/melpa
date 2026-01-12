@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Cycle (rotate) the thing under the cursor</longdescription>
+	<longdescription>Cycle (rotate) the word at point</longdescription>
 </pkgmetadata>
