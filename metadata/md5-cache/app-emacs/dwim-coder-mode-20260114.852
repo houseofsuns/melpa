@@ -1,12 +1,12 @@
 BDEPEND=>=app-editors/emacs-25.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DESCRIPTION=Cargo Major Mode. Cargo is the Rust package manager
+DESCRIPTION=DWIM keybindings for C, Python, Rust, and more
 EAPI=8
-HOMEPAGE=https://github.com/ayrat555/cargo-mode
+HOMEPAGE=https://sadiqpk.org/projects/dwim-coder-mode.html
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
 RDEPEND=>=app-editors/emacs-25.3:*
 SLOT=0
-SRC_URI=https://melpa.org/packages/cargo-mode-20250529.1140.tar
+SRC_URI=https://melpa.org/packages/dwim-coder-mode-20260114.852.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	fe05085d051330f15cf7201109b5cd23	elisp	8dfc7a00348fe9c91895014adc78a4a5	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=4b83ae10ecac0c378ba12b0268d75d86
+_md5_=0fa6d0a5e39d6e413f929a14ad08651a
