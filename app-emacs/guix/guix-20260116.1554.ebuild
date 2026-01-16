@@ -12,7 +12,7 @@ inherit g-sorcery gs-elpa
 
 DESCRIPTION="Interface for GNU Guix"
 
-HOMEPAGE="https://emacs-guix.gitlab.io/website/"
+HOMEPAGE="https://codeberg.org/guix/emacs-guix"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
@@ -22,9 +22,11 @@ DEPEND="app-emacs/dash
 	app-emacs/geiser
 	app-emacs/bui
 	app-emacs/transient
-	app-emacs/edit-indirect"
+	app-emacs/edit-indirect
+	app-emacs/magit-popup"
 RDEPEND="app-emacs/dash
 	app-emacs/geiser
 	app-emacs/bui
 	app-emacs/transient
-	app-emacs/edit-indirect"
+	app-emacs/edit-indirect
+	app-emacs/magit-popup"
