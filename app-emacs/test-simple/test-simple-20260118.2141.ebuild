@@ -5,18 +5,18 @@ EAPI=8
 
 REPO_URI="https://melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="loc-changes"
+REALNAME="test-simple"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Keep track of positions even after buffer changes"
+DESCRIPTION="Simple Unit Test Framework for Emacs Lisp"
 
-HOMEPAGE="https://github.com/rocky/emacs-loc-changes"
+HOMEPAGE="https://github.com/rocky/emacs-test-simple"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND=""
-RDEPEND=""
+DEPEND="app-emacs/compat"
+RDEPEND="app-emacs/compat"
