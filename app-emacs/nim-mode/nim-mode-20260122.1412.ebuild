@@ -20,9 +20,7 @@ KEYWORDS="~amd64 ~x86"
 
 DEPEND="app-emacs/epc
 	app-emacs/let-alist
-	app-emacs/commenter
-	app-emacs/flycheck-nimsuggest"
+	app-emacs/commenter"
 RDEPEND="app-emacs/epc
 	app-emacs/let-alist
-	app-emacs/commenter
-	app-emacs/flycheck-nimsuggest"
+	app-emacs/commenter"
