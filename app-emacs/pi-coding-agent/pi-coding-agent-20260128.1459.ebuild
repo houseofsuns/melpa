@@ -18,5 +18,7 @@ SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/markdown-mode"
-RDEPEND="app-emacs/markdown-mode"
+DEPEND="app-emacs/markdown-mode
+	app-emacs/transient"
+RDEPEND="app-emacs/markdown-mode
+	app-emacs/transient"
