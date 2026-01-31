@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Signal client for Emacs via signal-cli JSON-RPC"
+DESCRIPTION="Signal client via signal-cli JSON-RPC"
 
 HOMEPAGE="https://github.com/keenban/signel"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
