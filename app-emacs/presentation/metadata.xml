@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Display large character for presentation</longdescription>
+	<longdescription>Scale text globally and adjust UI for presentations</longdescription>
 </pkgmetadata>

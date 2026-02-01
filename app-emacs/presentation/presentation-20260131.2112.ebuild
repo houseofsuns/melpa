@@ -5,18 +5,18 @@ EAPI=8
 
 REPO_URI="https://melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="org-roam-latte"
+REALNAME="presentation"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Auto-highlight unlinked Org-roam references"
+DESCRIPTION="Scale text globally and adjust UI for presentations"
 
-HOMEPAGE="https://github.com/yad-tahir/org-roam-latte"
+HOMEPAGE="https://github.com/zonuexe/emacs-presentation-mode"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/org-roam"
-RDEPEND="app-emacs/org-roam"
+DEPEND="app-emacs/compat"
+RDEPEND="app-emacs/compat"
