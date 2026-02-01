@@ -5,14 +5,14 @@ EAPI=8
 
 REPO_URI="https://melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="oai"
+REALNAME="duckdb-query"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="AI-LLM blocks for org-mode"
+DESCRIPTION="DuckDB query results as native Elisp data structures"
 
-HOMEPAGE="https://github.com/Anoncheg1/emacs-oai"
+HOMEPAGE="https://github.com/gggion/duckdb-query.el"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
