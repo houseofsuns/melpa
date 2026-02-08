@@ -8,6 +8,6 @@ INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
 RDEPEND=app-emacs/llm app-emacs/plz app-emacs/transient app-emacs/compat app-emacs/yaml >=app-editors/emacs-25.3:*
 SLOT=0
-SRC_URI=https://melpa.org/packages/ellama-20260205.2206.tar
+SRC_URI=https://melpa.org/packages/ellama-20260208.1510.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	fe05085d051330f15cf7201109b5cd23	elisp	8dfc7a00348fe9c91895014adc78a4a5	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
 _md5_=13f4fbcffff5d57e1f2cafc78ecc7d11
