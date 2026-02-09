@@ -19,12 +19,10 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 DEPEND="app-emacs/compat
-	app-emacs/dash
 	app-emacs/org-mode
 	app-emacs/emacsql
 	app-emacs/magit-section"
 RDEPEND="app-emacs/compat
-	app-emacs/dash
 	app-emacs/org-mode
 	app-emacs/emacsql
 	app-emacs/magit-section"
