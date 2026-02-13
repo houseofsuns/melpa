@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Code Awareness collaboration package"
+DESCRIPTION="Kawa Code collaboration package"
 
 HOMEPAGE="https://github.com/CodeAwareness/ca.emacs"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
