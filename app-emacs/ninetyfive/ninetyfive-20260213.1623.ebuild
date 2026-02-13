@@ -12,7 +12,7 @@ inherit g-sorcery gs-elpa
 
 DESCRIPTION="NinetyFive"
 
-HOMEPAGE="https://github.com/ninetyfive-gg/ninetyfive.el"
+HOMEPAGE="https://github.com/numerataz/ninetyfive.el"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
