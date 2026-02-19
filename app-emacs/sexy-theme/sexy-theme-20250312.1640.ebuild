@@ -12,7 +12,7 @@ inherit g-sorcery gs-elpa
 
 DESCRIPTION="A strong colors variant of the Gruber Darker theme"
 
-HOMEPAGE="http://github.com/bgcicca/sexy-theme.el"
+HOMEPAGE="https://github.com/bgcicca/sexy-theme.el"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"

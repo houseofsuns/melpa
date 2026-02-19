@@ -12,7 +12,7 @@ inherit g-sorcery gs-elpa
 
 DESCRIPTION="Islamic prayer times"
 
-HOMEPAGE="http://github.com/zkry/awqat"
+HOMEPAGE="https://github.com/zkry/awqat"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"

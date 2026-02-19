@@ -12,7 +12,7 @@ inherit g-sorcery gs-elpa
 
 DESCRIPTION="A light/dark minimalistic Emacs 24 theme"
 
-HOMEPAGE="http://github.com/nullvec/minimal-theme"
+HOMEPAGE="https://github.com/nullvec/minimal-theme"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"

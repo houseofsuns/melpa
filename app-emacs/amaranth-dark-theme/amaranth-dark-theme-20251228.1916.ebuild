@@ -12,7 +12,7 @@ inherit g-sorcery gs-elpa
 
 DESCRIPTION="Amaranth Dark theme"
 
-HOMEPAGE="http://github.com/a9sk/amaranth-dark-theme"
+HOMEPAGE="https://github.com/a9sk/amaranth-dark-theme"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"

@@ -12,7 +12,7 @@ inherit g-sorcery gs-elpa
 
 DESCRIPTION="Feeluown client"
 
-HOMEPAGE="http://github.com/cosven/emacs-fuo"
+HOMEPAGE="https://github.com/cosven/emacs-fuo"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"

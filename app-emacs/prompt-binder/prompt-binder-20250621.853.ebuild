@@ -12,7 +12,7 @@ inherit g-sorcery gs-elpa
 
 DESCRIPTION="Bind LLM prompts to key chords and editor context"
 
-HOMEPAGE="http://github.com/tracym"
+HOMEPAGE="https://github.com/tracym"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
