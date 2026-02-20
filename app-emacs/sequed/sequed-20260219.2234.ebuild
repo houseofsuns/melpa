@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Major mode for FASTA format DNA alignments"
+DESCRIPTION="Major mode for FASTA and phylip/bpp DNA alignments"
 
 HOMEPAGE="https://github.com/brannala/sequed"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"

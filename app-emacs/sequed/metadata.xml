@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Major mode for FASTA format DNA alignments</longdescription>
+	<longdescription>Major mode for FASTA and phylip/bpp DNA alignments</longdescription>
 </pkgmetadata>
