@@ -1,13 +1,12 @@
 BDEPEND=>=app-editors/emacs-25.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DEPEND=app-emacs/popon app-emacs/posframe
-DESCRIPTION=Pomodoro timer with cat-themed breaks
+DESCRIPTION=Dracula Theme
 EAPI=8
-HOMEPAGE=https://github.com/kn66/pomo-cat.el
+HOMEPAGE=https://github.com/dracula/emacs
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
-RDEPEND=app-emacs/popon app-emacs/posframe >=app-editors/emacs-25.3:*
+RDEPEND=>=app-editors/emacs-25.3:*
 SLOT=0
-SRC_URI=https://melpa.org/packages/pomo-cat-20251127.1631.tar
+SRC_URI=https://melpa.org/packages/dracula-theme-20260224.1455.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	fe05085d051330f15cf7201109b5cd23	elisp	8dfc7a00348fe9c91895014adc78a4a5	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=c664f15af41e645b4116dfbb39090f0b
+_md5_=b06205b5becc14ed85665b56154c01c5

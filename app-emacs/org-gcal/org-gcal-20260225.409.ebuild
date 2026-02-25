@@ -20,7 +20,6 @@ KEYWORDS="~amd64 ~x86"
 
 DEPEND="app-emacs/emacs-aio
 	app-emacs/alert
-	app-emacs/elnode
 	app-emacs/oauth2-auto
 	app-emacs/org-mode
 	app-emacs/persist
@@ -28,7 +27,6 @@ DEPEND="app-emacs/emacs-aio
 	app-emacs/request-deferred"
 RDEPEND="app-emacs/emacs-aio
 	app-emacs/alert
-	app-emacs/elnode
 	app-emacs/oauth2-auto
 	app-emacs/org-mode
 	app-emacs/persist
