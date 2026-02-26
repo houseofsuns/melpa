@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="An unofficial Copilot plugin"
+DESCRIPTION="An Emacs plugin for GitHub Copilot"
 
 HOMEPAGE="https://github.com/copilot-emacs/copilot.el"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
