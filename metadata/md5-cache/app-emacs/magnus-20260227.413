@@ -1,12 +1,13 @@
 BDEPEND=>=app-editors/emacs-25.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DESCRIPTION=Live Coding in Python
+DEPEND=app-emacs/vterm app-emacs/transient
+DESCRIPTION=Manage multiple Claude Code instances
 EAPI=8
-HOMEPAGE=http://donkirkby.github.io/live-py-plugin/
+HOMEPAGE=https://github.com/hrishikeshs/magnus
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
-RDEPEND=>=app-editors/emacs-25.3:*
+RDEPEND=app-emacs/vterm app-emacs/transient >=app-editors/emacs-25.3:*
 SLOT=0
-SRC_URI=https://melpa.org/packages/live-py-mode-20260222.40.tar
+SRC_URI=https://melpa.org/packages/magnus-20260227.413.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	fe05085d051330f15cf7201109b5cd23	elisp	8dfc7a00348fe9c91895014adc78a4a5	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=907a6665cb18a93778c1b63f5cd356f6
+_md5_=258afc0bdf9d89f9c43a2f73af2a13b1

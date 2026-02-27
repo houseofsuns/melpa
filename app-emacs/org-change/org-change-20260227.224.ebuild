@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Annotate changes in org-mode files"
+DESCRIPTION="Annotate changes in text files"
 
 HOMEPAGE="https://github.com/drghirlanda/org-change"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
@@ -18,5 +18,5 @@ SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/org-mode"
-RDEPEND="app-emacs/org-mode"
+DEPEND=""
+RDEPEND=""
