@@ -5,22 +5,18 @@ EAPI=8
 
 REPO_URI="https://melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="org-node"
+REALNAME="pi-coding-agent"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Fast org-roam replacement"
+DESCRIPTION="Emacs frontend for pi coding agent"
 
-HOMEPAGE="https://github.com/meedstrom/org-node"
+HOMEPAGE="https://github.com/dnouri/pi-coding-agent"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/llama
-	app-emacs/magit-section
-	app-emacs/org-mem"
-RDEPEND="app-emacs/llama
-	app-emacs/magit-section
-	app-emacs/org-mem"
+DEPEND="app-emacs/transient"
+RDEPEND="app-emacs/transient"
