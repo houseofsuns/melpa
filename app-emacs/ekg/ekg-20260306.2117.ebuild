@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="A system for recording and linking information"
+DESCRIPTION="A sqlite-based note-taking package based on tags"
 
 HOMEPAGE="https://github.com/ahyatt/ekg"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
