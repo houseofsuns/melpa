@@ -12,7 +12,7 @@ inherit g-sorcery gs-elpa
 
 DESCRIPTION="Edit embedded metadata"
 
-HOMEPAGE="https://gitlab.epfl.ch/michael.piotrowski/edit-metadata"
+HOMEPAGE="https://codeberg.org/mxpi/edit-metadata"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
