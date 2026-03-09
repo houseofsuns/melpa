@@ -5,18 +5,18 @@ EAPI=8
 
 REPO_URI="https://melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="dired-quick-sort"
+REALNAME="let-completion"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Persistent quick sorting of Dired buffers in various ways"
+DESCRIPTION="Show let-binding values in Elisp completion"
 
-HOMEPAGE="https://gitlab.com/xuhdev/dired-quick-sort"
+HOMEPAGE="https://github.com/gggion/let-completion.el"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/hydra"
-RDEPEND="app-emacs/hydra"
+DEPEND=""
+RDEPEND=""

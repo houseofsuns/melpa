@@ -5,18 +5,20 @@ EAPI=8
 
 REPO_URI="https://melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="mu-cite"
+REALNAME="helm-eca"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="A library to provide MIME features"
+DESCRIPTION="Helm UI for ECA chats/workspaces"
 
-HOMEPAGE="https://github.com/ksato9700/mu-cite"
+HOMEPAGE="https://github.com/PalaceChan/helm-eca"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/flim"
-RDEPEND="app-emacs/flim"
+DEPEND="app-emacs/eca
+	app-emacs/helm"
+RDEPEND="app-emacs/eca
+	app-emacs/helm"
