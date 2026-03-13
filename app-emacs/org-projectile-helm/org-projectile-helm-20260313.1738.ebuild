@@ -19,6 +19,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 DEPEND="app-emacs/org-projectile
-	app-emacs/helm"
+	app-emacs/helm
+	app-emacs/helm-org"
 RDEPEND="app-emacs/org-projectile
-	app-emacs/helm"
+	app-emacs/helm
+	app-emacs/helm-org"
