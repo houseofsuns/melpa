@@ -18,5 +18,7 @@ SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/visual-fill-column"
-RDEPEND="app-emacs/visual-fill-column"
+DEPEND="app-emacs/visual-fill-column
+	app-emacs/async-http-queue"
+RDEPEND="app-emacs/visual-fill-column
+	app-emacs/async-http-queue"
