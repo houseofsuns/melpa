@@ -1,0 +1,13 @@
+BDEPEND=>=app-editors/emacs-26.3:*
+DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
+DEPEND=app-emacs/vterm
+DESCRIPTION=Edit text in a buffer and send it to vterm
+EAPI=8
+HOMEPAGE=https://git.andros.dev/andros/vterm-editor.el
+INHERIT=g-sorcery gs-elpa
+KEYWORDS=~amd64 ~x86
+RDEPEND=app-emacs/vterm >=app-editors/emacs-26.3:*
+SLOT=0
+SRC_URI=https://melpa.org/packages/vterm-editor-20260330.845.tar
+_eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	0ea9a0d3bc26353e1642c73560a24fdf	elisp	a37bfc35b86403c770beebbd71661c30	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
+_md5_=bf6c563d64de7d8c430f7cbe18091203
