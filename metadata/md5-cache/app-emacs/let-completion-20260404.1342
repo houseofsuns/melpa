@@ -1,13 +1,12 @@
 BDEPEND=>=app-editors/emacs-26.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DEPEND=app-emacs/citeproc-el
-DESCRIPTION=Overlays for org-cite citations
+DESCRIPTION=Show let-binding values in Elisp completion
 EAPI=8
-HOMEPAGE=https://git.sr.ht/~swflint/org-cite-overlay
+HOMEPAGE=https://github.com/gggion/let-completion.el
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
-RDEPEND=app-emacs/citeproc-el >=app-editors/emacs-26.3:*
+RDEPEND=>=app-editors/emacs-26.3:*
 SLOT=0
-SRC_URI=https://melpa.org/packages/org-cite-overlay-20251130.300.tar
+SRC_URI=https://melpa.org/packages/let-completion-20260404.1342.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	0ea9a0d3bc26353e1642c73560a24fdf	elisp	a37bfc35b86403c770beebbd71661c30	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=4dc9fbb404bcd2175f35221eec430328
+_md5_=31a498d85f74ed8d4a69c6a726177223
