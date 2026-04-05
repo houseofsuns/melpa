@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Change cursor shape and color in terminal</longdescription>
+	<longdescription>Dynamic templating loader</longdescription>
 </pkgmetadata>

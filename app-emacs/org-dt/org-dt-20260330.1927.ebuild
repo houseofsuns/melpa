@@ -5,14 +5,14 @@ EAPI=8
 
 REPO_URI="https://melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="evil-terminal-cursor-changer"
+REALNAME="org-dt"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Change cursor shape and color by evil state in terminal"
+DESCRIPTION="Dynamic templating loader"
 
-HOMEPAGE="https://github.com/7696122/evil-terminal-cursor-changer"
+HOMEPAGE="https://codeberg.org/niqc/org-dynamic-templates"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
