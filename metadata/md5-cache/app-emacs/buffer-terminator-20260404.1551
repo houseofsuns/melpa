@@ -1,13 +1,12 @@
 BDEPEND=>=app-editors/emacs-26.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DEPEND=app-emacs/evil
-DESCRIPTION=Evil Visual Multi - Multiple cursors for evil-mode
+DESCRIPTION=Safely Terminate/Kill Buffers Automatically
 EAPI=8
-HOMEPAGE=https://github.com/Prgebish/evim
+HOMEPAGE=https://github.com/jamescherti/buffer-terminator.el
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
-RDEPEND=app-emacs/evil >=app-editors/emacs-26.3:*
+RDEPEND=>=app-editors/emacs-26.3:*
 SLOT=0
-SRC_URI=https://melpa.org/packages/evim-20260329.1809.tar
+SRC_URI=https://melpa.org/packages/buffer-terminator-20260404.1551.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	0ea9a0d3bc26353e1642c73560a24fdf	elisp	a37bfc35b86403c770beebbd71661c30	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=726c181deb6e583cf5085d1db2248b9a
+_md5_=442ffc9c133ec36ce4529a0354e66e5c
