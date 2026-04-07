@@ -1,12 +1,13 @@
 BDEPEND=>=app-editors/emacs-26.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DESCRIPTION=FPGA & ASIC Utils
+DEPEND=app-emacs/flycheck
+DESCRIPTION=Toggle between Code and markup
 EAPI=8
-HOMEPAGE=https://github.com/gmlarumbe/fpga
+HOMEPAGE=https://github.com/cpitclaudel/alectryon
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
-RDEPEND=>=app-editors/emacs-26.3:*
+RDEPEND=app-emacs/flycheck >=app-editors/emacs-26.3:*
 SLOT=0
-SRC_URI=https://melpa.org/packages/fpga-20251119.2304.tar
+SRC_URI=https://melpa.org/packages/alectryon-20260406.2342.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	0ea9a0d3bc26353e1642c73560a24fdf	elisp	a37bfc35b86403c770beebbd71661c30	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=ea55de4d46320d2eaf5a82c1580b69b7
+_md5_=8537c19bdca704b35c4be531fe97e326
