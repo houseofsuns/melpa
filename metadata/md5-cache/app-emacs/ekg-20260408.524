@@ -1,12 +1,13 @@
 BDEPEND=>=app-editors/emacs-26.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DESCRIPTION=Module for the Daselt configuration scheme
+DEPEND=app-emacs/triples app-emacs/llm app-emacs/vui
+DESCRIPTION=A sqlite-based note-taking package based on tags
 EAPI=8
-HOMEPAGE=https://gitlab.com/nameiwillforget/d-emacs/
+HOMEPAGE=https://github.com/ahyatt/ekg
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
-RDEPEND=>=app-editors/emacs-26.3:*
+RDEPEND=app-emacs/triples app-emacs/llm app-emacs/vui >=app-editors/emacs-26.3:*
 SLOT=0
-SRC_URI=https://melpa.org/packages/daselt-20260406.1431.tar
+SRC_URI=https://melpa.org/packages/ekg-20260408.524.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	0ea9a0d3bc26353e1642c73560a24fdf	elisp	a37bfc35b86403c770beebbd71661c30	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=eb63d0b90a6159fb5191646df60b6e16
+_md5_=cc922ee8fd8237610fa8663aa67e7030

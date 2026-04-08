@@ -12,7 +12,7 @@ inherit g-sorcery gs-elpa
 
 DESCRIPTION="Package managers for LSP, DAP, linters, and more"
 
-HOMEPAGE="https://github.com/deirn/mason.el"
+HOMEPAGE="https://github.com/mason-org/mason.el"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
