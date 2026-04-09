@@ -1,12 +1,12 @@
 BDEPEND=>=app-editors/emacs-26.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DESCRIPTION=Chat client for MeshMonitor (Meshtastic)
+DESCRIPTION=Persist and restore your sessions (desktop.el alternative)
 EAPI=8
-HOMEPAGE=https://git.andros.dev/andros/meshmonitor-chat.el
+HOMEPAGE=https://github.com/jamescherti/easysession.el
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
 RDEPEND=>=app-editors/emacs-26.3:*
 SLOT=0
-SRC_URI=https://melpa.org/packages/meshmonitor-chat-20260405.1837.tar
+SRC_URI=https://melpa.org/packages/easysession-20260408.1450.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	0ea9a0d3bc26353e1642c73560a24fdf	elisp	a37bfc35b86403c770beebbd71661c30	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=d4d5dca4fee320628b760e6329331b28
+_md5_=2802e30fcccd08a797defbc91a1c7d70
