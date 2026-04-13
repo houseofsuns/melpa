@@ -1,12 +1,13 @@
 BDEPEND=>=app-editors/emacs-26.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DESCRIPTION=Bazel support for Emacs
+DEPEND=app-emacs/modus-themes
+DESCRIPTION=Light cornsilk theme with warm, earthy colors
 EAPI=8
-HOMEPAGE=https://github.com/bazelbuild/emacs-bazel-mode
+HOMEPAGE=https://github.com/WJCFerguson/emacs-faff-theme
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
-RDEPEND=>=app-editors/emacs-26.3:*
+RDEPEND=app-emacs/modus-themes >=app-editors/emacs-26.3:*
 SLOT=0
-SRC_URI=https://melpa.org/packages/bazel-20260402.1058.tar
+SRC_URI=https://melpa.org/packages/faff-theme-20260413.1507.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	0ea9a0d3bc26353e1642c73560a24fdf	elisp	a37bfc35b86403c770beebbd71661c30	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=94f6b5e4e82e9a8ef0a79169258932c5
+_md5_=23fe3d575f26696be5f6d537bfa004ca
