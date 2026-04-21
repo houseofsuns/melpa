@@ -5,18 +5,18 @@ EAPI=8
 
 REPO_URI="https://melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="rpm-spec-mode"
+REALNAME="package-build"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="RPM spec mode for Emacs/XEmacs"
+DESCRIPTION="Curate an Emacs Lisp package archive"
 
-HOMEPAGE="https://github.com/Thaodan/rpm-spec-mode/"
+HOMEPAGE="https://github.com/melpa/package-build"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND=""
-RDEPEND=""
+DEPEND="app-emacs/compat"
+RDEPEND="app-emacs/compat"
