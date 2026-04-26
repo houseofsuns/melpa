@@ -5,20 +5,20 @@ EAPI=8
 
 REPO_URI="https://melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="impatient-mode"
+REALNAME="evil-ghostel"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Serve buffers live over HTTP"
+DESCRIPTION="Evil-mode integration for ghostel"
 
-HOMEPAGE="https://github.com/netguy204/imp.el"
+HOMEPAGE="https://github.com/dakra/ghostel"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/simple-httpd
-	app-emacs/htmlize"
-RDEPEND="app-emacs/simple-httpd
-	app-emacs/htmlize"
+DEPEND="app-emacs/evil
+	app-emacs/ghostel"
+RDEPEND="app-emacs/evil
+	app-emacs/ghostel"

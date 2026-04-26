@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Pure Elisp HTTP server</longdescription>
+	<longdescription>Evil-mode integration for ghostel</longdescription>
 </pkgmetadata>
