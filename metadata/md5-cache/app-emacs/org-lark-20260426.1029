@@ -1,0 +1,12 @@
+BDEPEND=>=app-editors/emacs-26.3:*
+DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
+DESCRIPTION=Export Lark docs to Org
+EAPI=8
+HOMEPAGE=https://github.com/bbw9n/org-lark
+INHERIT=g-sorcery gs-elpa
+KEYWORDS=~amd64 ~x86
+RDEPEND=>=app-editors/emacs-26.3:*
+SLOT=0
+SRC_URI=https://melpa.org/packages/org-lark-20260426.1029.tar
+_eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	0ea9a0d3bc26353e1642c73560a24fdf	elisp	a37bfc35b86403c770beebbd71661c30	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
+_md5_=552c8911b5aad4bf30ca4f85471552a2
