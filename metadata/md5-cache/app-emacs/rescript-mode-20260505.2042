@@ -1,13 +1,12 @@
 BDEPEND=>=app-editors/emacs-26.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DEPEND=app-emacs/org-mode app-emacs/ox-gfm app-emacs/s
-DESCRIPTION=Export Org documents to Leanpub book format
+DESCRIPTION=A major mode for editing ReScript
 EAPI=8
-HOMEPAGE=https://gitlab.com/zzamboni/ox-leanpub
+HOMEPAGE=https://github.com/jjlee/rescript-mode
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
-RDEPEND=app-emacs/org-mode app-emacs/ox-gfm app-emacs/s >=app-editors/emacs-26.3:*
+RDEPEND=>=app-editors/emacs-26.3:*
 SLOT=0
-SRC_URI=https://melpa.org/packages/ox-leanpub-20260419.2104.tar
+SRC_URI=https://melpa.org/packages/rescript-mode-20260505.2042.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	0ea9a0d3bc26353e1642c73560a24fdf	elisp	a37bfc35b86403c770beebbd71661c30	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=1c23bdf95bc34bf5a15255e735a6037d
+_md5_=b6f31990696a43471c106464cb361bef

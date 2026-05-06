@@ -1,13 +1,12 @@
 BDEPEND=>=app-editors/emacs-26.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DEPEND=app-emacs/compat app-emacs/llama
-DESCRIPTION=Extract information from Emacs Lisp libraries
+DESCRIPTION=Paste snippets from an org-mode file
 EAPI=8
-HOMEPAGE=https://github.com/emacscollective/elx
+HOMEPAGE=https://github.com/Kungsgeten/yankpad
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
-RDEPEND=app-emacs/compat app-emacs/llama >=app-editors/emacs-26.3:*
+RDEPEND=>=app-editors/emacs-26.3:*
 SLOT=0
-SRC_URI=https://melpa.org/packages/elx-20260504.2017.tar
+SRC_URI=https://melpa.org/packages/yankpad-20260506.850.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	0ea9a0d3bc26353e1642c73560a24fdf	elisp	a37bfc35b86403c770beebbd71661c30	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=e8047e832f2d2b8682978e9a1303bd1b
+_md5_=ef5f3b3aa4ba52bb9daf03bb245df084
