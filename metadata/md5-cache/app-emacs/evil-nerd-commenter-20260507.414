@@ -1,12 +1,12 @@
 BDEPEND=>=app-editors/emacs-26.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DESCRIPTION=A major-mode for editing Fennel code
+DESCRIPTION=Comment/uncomment lines efficiently. Like Nerd Commenter in Vim
 EAPI=8
-HOMEPAGE=https://git.sr.ht/~technomancy/fennel-mode
+HOMEPAGE=https://github.com/redguardtoo/evil-nerd-commenter
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
 RDEPEND=>=app-editors/emacs-26.3:*
 SLOT=0
-SRC_URI=https://melpa.org/packages/fennel-mode-20260408.1529.tar
+SRC_URI=https://melpa.org/packages/evil-nerd-commenter-20260507.414.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	0ea9a0d3bc26353e1642c73560a24fdf	elisp	a37bfc35b86403c770beebbd71661c30	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=8b89bc4473ff20415d5075efc278a2aa
+_md5_=231f2b4fb5aed4016fc703d5ce149d03
