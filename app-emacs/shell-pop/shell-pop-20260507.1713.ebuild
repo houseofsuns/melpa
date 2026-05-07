@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Helps you to use shell easily on Emacs. Only one key action to work"
+DESCRIPTION="Easily toggle a shell window with a single keystroke"
 
 HOMEPAGE="https://github.com/kyagi/shell-pop-el"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
