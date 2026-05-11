@@ -18,5 +18,7 @@ SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/http-server"
-RDEPEND="app-emacs/http-server"
+DEPEND="app-emacs/http-server
+	app-emacs/elisp-refs"
+RDEPEND="app-emacs/http-server
+	app-emacs/elisp-refs"
