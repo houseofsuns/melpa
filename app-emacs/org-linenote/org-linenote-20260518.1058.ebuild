@@ -18,13 +18,9 @@ SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/projectile
-	app-emacs/vertico
+DEPEND="app-emacs/vertico
 	app-emacs/eldoc
-	app-emacs/lsp-mode
 	app-emacs/fringe-helper"
-RDEPEND="app-emacs/projectile
-	app-emacs/vertico
+RDEPEND="app-emacs/vertico
 	app-emacs/eldoc
-	app-emacs/lsp-mode
 	app-emacs/fringe-helper"
