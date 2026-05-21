@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Rotate the layout of emacs</longdescription>
+	<longdescription>Rotate window layouts and buffers</longdescription>
 </pkgmetadata>

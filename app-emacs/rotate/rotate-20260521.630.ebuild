@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Rotate the layout of emacs"
+DESCRIPTION="Rotate window layouts and buffers"
 
 HOMEPAGE="https://github.com/daichirata/emacs-rotate"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
