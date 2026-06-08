@@ -1,0 +1,12 @@
+BDEPEND=>=app-editors/emacs-26.3:*
+DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
+DESCRIPTION=A warm earthy port of Vim's desert theme
+EAPI=8
+HOMEPAGE=https://github.com/bkc39/desert-theme
+INHERIT=g-sorcery gs-elpa
+KEYWORDS=~amd64 ~x86
+RDEPEND=>=app-editors/emacs-26.3:*
+SLOT=0
+SRC_URI=https://melpa.org/packages/desert-theme-20260606.1836.tar
+_eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	0ea9a0d3bc26353e1642c73560a24fdf	elisp	a37bfc35b86403c770beebbd71661c30	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
+_md5_=eec284e860d58fede240bf98de54c658
