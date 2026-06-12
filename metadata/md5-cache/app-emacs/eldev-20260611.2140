@@ -1,13 +1,12 @@
 BDEPEND=>=app-editors/emacs-26.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DEPEND=app-emacs/plz app-emacs/futur app-emacs/vui
-DESCRIPTION=A Bluesky client
+DESCRIPTION=Elisp development tool
 EAPI=8
-HOMEPAGE=https://github.com/ahyatt/emacs-bluesky
+HOMEPAGE=https://github.com/emacs-eldev/eldev
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
-RDEPEND=app-emacs/plz app-emacs/futur app-emacs/vui >=app-editors/emacs-26.3:*
+RDEPEND=>=app-editors/emacs-26.3:*
 SLOT=0
-SRC_URI=https://melpa.org/packages/bluesky-20260611.502.tar
+SRC_URI=https://melpa.org/packages/eldev-20260611.2140.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	0ea9a0d3bc26353e1642c73560a24fdf	elisp	a37bfc35b86403c770beebbd71661c30	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=b1e02656489d9666e44fd6470709449a
+_md5_=6d8d3e29fb5b8d494d82bda5d27ccfe4
