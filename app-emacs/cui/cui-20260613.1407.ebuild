@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="AI-LLM chat blocks for org-mode"
+DESCRIPTION="Chat blocks in org-mode for LLM and agents"
 
 HOMEPAGE="https://codeberg.org/Anoncheg/emacs-cui"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
