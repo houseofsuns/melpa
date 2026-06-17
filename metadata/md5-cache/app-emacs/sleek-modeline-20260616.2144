@@ -1,13 +1,12 @@
 BDEPEND=>=app-editors/emacs-26.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DEPEND=app-emacs/reformatter
-DESCRIPTION=Uiua integration
+DESCRIPTION=Minimal and elegant modeline
 EAPI=8
-HOMEPAGE=https://github.com/crmsnbleyd/uiua-mode
+HOMEPAGE=https://github.com/abidanBrito/sleek-modeline
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
-RDEPEND=app-emacs/reformatter >=app-editors/emacs-26.3:*
+RDEPEND=>=app-editors/emacs-26.3:*
 SLOT=0
-SRC_URI=https://melpa.org/packages/uiua-mode-20240930.1206.tar
+SRC_URI=https://melpa.org/packages/sleek-modeline-20260616.2144.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	0ea9a0d3bc26353e1642c73560a24fdf	elisp	a37bfc35b86403c770beebbd71661c30	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=eadcbbfbadf6489d91f50e144a1611c6
+_md5_=b156f0d8fdbf4b85fccea06952df22d3
