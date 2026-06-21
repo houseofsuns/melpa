@@ -5,14 +5,14 @@ EAPI=8
 
 REPO_URI="https://melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="plain-theme"
+REALNAME="leadkey"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Plain theme without syntax highlighting"
+DESCRIPTION="Translate leader keys to key sequences"
 
-HOMEPAGE="https://github.com/lukateras/plain-theme"
+HOMEPAGE="https://github.com/jixiuf/emacs-leadkey"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
