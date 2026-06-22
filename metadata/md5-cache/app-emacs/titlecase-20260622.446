@@ -1,13 +1,12 @@
 BDEPEND=>=app-editors/emacs-26.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DEPEND=app-emacs/compat
-DESCRIPTION=Terminal emulator powered by libghostty
+DESCRIPTION=Title-case phrases
 EAPI=8
-HOMEPAGE=https://github.com/dakra/ghostel
+HOMEPAGE=https://codeberg.org/acdw/titlecase.el
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
-RDEPEND=app-emacs/compat >=app-editors/emacs-26.3:*
+RDEPEND=>=app-editors/emacs-26.3:*
 SLOT=0
-SRC_URI=https://melpa.org/packages/ghostel-20260620.2229.tar
+SRC_URI=https://melpa.org/packages/titlecase-20260622.446.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	0ea9a0d3bc26353e1642c73560a24fdf	elisp	a37bfc35b86403c770beebbd71661c30	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=f4c874f573ae95169a8f0b7e4b7a60e8
+_md5_=92b90f3589a447d70a703f3e95d38494

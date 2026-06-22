@@ -5,14 +5,14 @@ EAPI=8
 
 REPO_URI="https://melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="ollama-buddy"
+REALNAME="clatter"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Ollama LLM AI Assistant ChatGPT Claude Gemini Grok Codestral DeepSeek OpenRouter Support"
+DESCRIPTION="An IRCv3-compliant IRC client"
 
-HOMEPAGE="https://github.com/captainflasmr/ollama-buddy"
+HOMEPAGE="https://github.com/parenworks/clatter.el"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
