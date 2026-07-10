@@ -18,11 +18,5 @@ SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/shut-up
-	app-emacs/multi
-	app-emacs/dash
-	app-emacs/highlight"
-RDEPEND="app-emacs/shut-up
-	app-emacs/multi
-	app-emacs/dash
-	app-emacs/highlight"
+DEPEND=""
+RDEPEND=""
