@@ -23,10 +23,12 @@ DEPEND="app-emacs/yasnippet
 	app-emacs/clojure-mode
 	app-emacs/cider
 	app-emacs/parseedn
-	app-emacs/transient"
+	app-emacs/transient
+	app-emacs/spinner"
 RDEPEND="app-emacs/yasnippet
 	app-emacs/paredit
 	app-emacs/clojure-mode
 	app-emacs/cider
 	app-emacs/parseedn
-	app-emacs/transient"
+	app-emacs/transient
+	app-emacs/spinner"

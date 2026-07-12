@@ -19,8 +19,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 DEPEND="app-emacs/dash
-	app-emacs/mmm-mode
+	app-emacs/polymode
 	app-emacs/s"
 RDEPEND="app-emacs/dash
-	app-emacs/mmm-mode
+	app-emacs/polymode
 	app-emacs/s"
