@@ -19,10 +19,8 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
 DEPEND="app-emacs/denote
-	app-emacs/denote-sequence
 	app-emacs/dash
 	app-emacs/denote-regexp"
 RDEPEND="app-emacs/denote
-	app-emacs/denote-sequence
 	app-emacs/dash
 	app-emacs/denote-regexp"
