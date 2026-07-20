@@ -1,12 +1,13 @@
 BDEPEND=>=app-editors/emacs-26.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DESCRIPTION=Major mode for Godot's GDScript language
+DEPEND=app-emacs/llm app-emacs/plz
+DESCRIPTION=Standalone Hacker News client
 EAPI=8
-HOMEPAGE=https://github.com/godotengine/emacs-gdscript-mode/
+HOMEPAGE=https://github.com/luciuschen/hnview
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
-RDEPEND=>=app-editors/emacs-26.3:*
+RDEPEND=app-emacs/llm app-emacs/plz >=app-editors/emacs-26.3:*
 SLOT=0
-SRC_URI=https://melpa.org/packages/gdscript-mode-20260715.2059.tar
+SRC_URI=https://melpa.org/packages/hnview-20260720.641.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	0ea9a0d3bc26353e1642c73560a24fdf	elisp	a37bfc35b86403c770beebbd71661c30	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=e83edab039cc3e5dbe3c73a78d73c2cb
+_md5_=9b384b9a0dd829fac5fdef93b780997d
