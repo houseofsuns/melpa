@@ -12,7 +12,7 @@ inherit g-sorcery gs-elpa
 
 DESCRIPTION="Major mode for editing Solidity code"
 
-HOMEPAGE="https://codeberg.org/nlordell/sol-mode"
+HOMEPAGE="https://github.com/nlordell/sol-mode"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
