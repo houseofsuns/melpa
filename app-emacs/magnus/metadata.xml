@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Manage multiple Claude Code instances</longdescription>
+	<longdescription>Manage multiple AI coding agents</longdescription>
 </pkgmetadata>
