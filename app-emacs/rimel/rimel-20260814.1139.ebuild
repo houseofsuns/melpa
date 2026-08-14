@@ -5,18 +5,18 @@ EAPI=8
 
 REPO_URI="https://melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="imake"
+REALNAME="rimel"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Simple, opinionated make target runner"
+DESCRIPTION="A lightweight Rime input method"
 
-HOMEPAGE="https://github.com/tarsius/imake"
+HOMEPAGE="https://github.com/emacs-rime/rimel"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/compat"
-RDEPEND="app-emacs/compat"
+DEPEND="app-emacs/liberime"
+RDEPEND="app-emacs/liberime"
