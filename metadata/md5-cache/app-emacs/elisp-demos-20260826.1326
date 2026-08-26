@@ -1,12 +1,12 @@
 BDEPEND=>=app-editors/emacs-26.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DESCRIPTION=Bazel support for Emacs
+DESCRIPTION=Elisp API Demos
 EAPI=8
-HOMEPAGE=https://github.com/bazel-contrib/bazel.el
+HOMEPAGE=https://github.com/xuchunyang/elisp-demos
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
 RDEPEND=>=app-editors/emacs-26.3:*
 SLOT=0
-SRC_URI=https://melpa.org/packages/bazel-20260820.1428.tar
+SRC_URI=https://melpa.org/packages/elisp-demos-20260826.1326.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	0ea9a0d3bc26353e1642c73560a24fdf	elisp	a37bfc35b86403c770beebbd71661c30	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=680c3c75f5d073497ef92dc6957b92cc
+_md5_=e08f98e4741801ff6b9b8a33fd72c886
