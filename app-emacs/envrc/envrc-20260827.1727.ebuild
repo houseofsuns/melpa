@@ -18,7 +18,5 @@ SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/inheritenv
-	app-emacs/seq"
-RDEPEND="app-emacs/inheritenv
-	app-emacs/seq"
+DEPEND="app-emacs/inheritenv"
+RDEPEND="app-emacs/inheritenv"
