@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Content-addressed LaTeX-to-SVG image rendering"
+DESCRIPTION="LaTeX-to-SVG rendering engine with caching"
 
 HOMEPAGE="https://github.com/alberti42/latex-to-svg-backend"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
