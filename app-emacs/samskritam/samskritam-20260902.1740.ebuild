@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Show samskrit word definitions"
+DESCRIPTION="Sanskrit dictionaries, translation, and input"
 
 HOMEPAGE="https://github.com/thapakrish/samskritam"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
