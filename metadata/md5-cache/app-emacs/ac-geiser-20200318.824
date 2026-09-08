@@ -1,13 +1,12 @@
 BDEPEND=>=app-editors/emacs-26.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DEPEND=app-emacs/geiser app-emacs/auto-complete
-DESCRIPTION=Auto-complete backend for geiser
+DESCRIPTION=Emacs auto-complete backend for geiser
 EAPI=8
 HOMEPAGE=https://github.com/xiaohanyu/ac-geiser
 INHERIT=g-sorcery gs-elpa
 KEYWORDS=~amd64 ~x86
-RDEPEND=app-emacs/geiser app-emacs/auto-complete >=app-editors/emacs-26.3:*
+RDEPEND=>=app-editors/emacs-26.3:*
 SLOT=0
 SRC_URI=https://melpa.org/packages/ac-geiser-20200318.824.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	0ea9a0d3bc26353e1642c73560a24fdf	elisp	a37bfc35b86403c770beebbd71661c30	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=2a093599f3e8ed5a3ccdf01e5b89f67c
+_md5_=113f624f46833e9a5628f904c25e4005

@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Collection of avk themes"
+DESCRIPTION="Various themes by Alex V. Koval"
 
 HOMEPAGE="https://github.com/avkoval/avk-emacs-themes"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"

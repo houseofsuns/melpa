@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Gnus Backend For Twitter"
+DESCRIPTION="Gnus backend for twitter"
 
 HOMEPAGE="https://github.com/dickmao/nntwitter"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
@@ -18,9 +18,5 @@ SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/dash
-	app-emacs/anaphora
-	app-emacs/request"
-RDEPEND="app-emacs/dash
-	app-emacs/anaphora
-	app-emacs/request"
+DEPEND=""
+RDEPEND=""

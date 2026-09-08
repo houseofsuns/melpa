@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="The Emacs webserver"
+DESCRIPTION="A simple emacs async HTTP server"
 
 HOMEPAGE="https://github.com/jcaw/elnode"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
@@ -18,19 +18,5 @@ SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/web
-	app-emacs/dash
-	app-emacs/noflet
-	app-emacs/s
-	app-emacs/creole
-	app-emacs/fakir
-	app-emacs/db
-	app-emacs/kv"
-RDEPEND="app-emacs/web
-	app-emacs/dash
-	app-emacs/noflet
-	app-emacs/s
-	app-emacs/creole
-	app-emacs/fakir
-	app-emacs/db
-	app-emacs/kv"
+DEPEND=""
+RDEPEND=""

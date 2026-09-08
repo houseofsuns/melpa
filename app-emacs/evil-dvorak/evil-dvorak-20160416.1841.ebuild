@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Evil keybindings for that work with dvorak mode"
+DESCRIPTION="Allows you to use evil with appropriate dvorak bindings"
 
 HOMEPAGE="https://github.com/jbranso/evil-dvorak"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"

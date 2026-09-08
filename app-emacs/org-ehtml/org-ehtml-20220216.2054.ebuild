@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Export Org-mode files as editable web pages"
+DESCRIPTION="[No description available]"
 
 HOMEPAGE="https://github.com/eschulte/org-ehtml"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
@@ -18,5 +18,5 @@ SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/web-server"
-RDEPEND="app-emacs/web-server"
+DEPEND=""
+RDEPEND=""

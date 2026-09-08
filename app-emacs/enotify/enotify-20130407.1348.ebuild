@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="A networked notification system for emacs"
+DESCRIPTION="A networked notification system for Emacs"
 
 HOMEPAGE="https://github.com/laynor/enotify"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"

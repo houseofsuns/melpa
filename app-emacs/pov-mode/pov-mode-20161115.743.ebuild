@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Major mode for editing POV-Ray scene files"
+DESCRIPTION="Major mode for Povray scene files"
 
 HOMEPAGE="https://github.com/melmothx/pov-mode"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"

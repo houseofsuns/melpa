@@ -1,6 +1,6 @@
 BDEPEND=>=app-editors/emacs-26.3:*
 DEFINED_PHASES=compile configure info install postinst postrm prepare setup test unpack
-DESCRIPTION=Quasi Monochrome theme
+DESCRIPTION=High contrast quasi monochrome color theme
 EAPI=8
 HOMEPAGE=https://github.com/lbolla/emacs-quasi-monochrome
 INHERIT=g-sorcery gs-elpa
@@ -9,4 +9,4 @@ RDEPEND=>=app-editors/emacs-26.3:*
 SLOT=0
 SRC_URI=https://melpa.org/packages/quasi-monochrome-theme-20200415.705.tar
 _eclasses_=g-sorcery	692c9ad583c66d03e7c0e8b3b106a435	elisp-common	0ea9a0d3bc26353e1642c73560a24fdf	elisp	a37bfc35b86403c770beebbd71661c30	gs-elpa	df4b672ca6bb8e009e294018c3bee8bf
-_md5_=fd8b7f16fa1c9c2109fc8d1062e9f59d
+_md5_=3f58dd813a580e5a5627dca41ed1f627

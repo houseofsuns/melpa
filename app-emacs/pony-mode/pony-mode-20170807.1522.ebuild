@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Minor mode for working with Django Projects"
+DESCRIPTION="Minor mode for working with Django projects"
 
 HOMEPAGE="https://github.com/davidmiller/pony-mode"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"

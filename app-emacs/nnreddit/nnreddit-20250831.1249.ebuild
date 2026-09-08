@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Gnus Backend For Reddit"
+DESCRIPTION="Gnus backend for reddit"
 
 HOMEPAGE="https://github.com/dickmao/nnreddit"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
@@ -18,15 +18,5 @@ SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/request
-	app-emacs/anaphora
-	app-emacs/dash
-	app-emacs/json-rpc
-	app-emacs/virtualenvwrapper
-	app-emacs/s"
-RDEPEND="app-emacs/request
-	app-emacs/anaphora
-	app-emacs/dash
-	app-emacs/json-rpc
-	app-emacs/virtualenvwrapper
-	app-emacs/s"
+DEPEND=""
+RDEPEND=""

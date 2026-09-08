@@ -18,11 +18,11 @@ SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/request-deferred
-	app-emacs/deferred
+DEPEND="app-emacs/dash
 	app-emacs/s
-	app-emacs/dash"
-RDEPEND="app-emacs/request-deferred
 	app-emacs/deferred
+	app-emacs/request-deferred"
+RDEPEND="app-emacs/dash
 	app-emacs/s
-	app-emacs/dash"
+	app-emacs/deferred
+	app-emacs/request-deferred"

@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Enable Wubi Input Method in Emacs"
+DESCRIPTION="Enable Wubi(五笔) Input Method in Emacs"
 
 HOMEPAGE="https://github.com/andyque/chinese-wbim"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"

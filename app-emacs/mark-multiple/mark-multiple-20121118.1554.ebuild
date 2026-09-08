@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Sorta lets you mark several regions at once"
+DESCRIPTION="A library that sorta lets you mark several regions at once"
 
 HOMEPAGE="https://github.com/magnars/mark-multiple.el"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"

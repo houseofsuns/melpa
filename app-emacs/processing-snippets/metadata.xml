@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Snippets for processing-mode</longdescription>
+	<longdescription>Snippets for the Processing major mode</longdescription>
 </pkgmetadata>

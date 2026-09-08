@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Modular emacs configuration framework"
+DESCRIPTION="Modular configuration framework for Emacs"
 
 HOMEPAGE="https://github.com/laynor/smotitah"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"

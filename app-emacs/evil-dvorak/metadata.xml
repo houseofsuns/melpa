@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Evil keybindings for that work with dvorak mode</longdescription>
+	<longdescription>Allows you to use evil with appropriate dvorak bindings</longdescription>
 </pkgmetadata>

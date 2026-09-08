@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Snippets for processing-mode"
+DESCRIPTION="Snippets for the Processing major mode"
 
 HOMEPAGE="https://github.com/ptrv/processing2-emacs"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"

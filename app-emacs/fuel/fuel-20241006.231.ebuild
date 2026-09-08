@@ -10,7 +10,7 @@ DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Major mode for the Factor programming language"
+DESCRIPTION="Factor's Ultimate Emacs Library"
 
 HOMEPAGE="https://github.com/factor/fuel"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
