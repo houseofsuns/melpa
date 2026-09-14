@@ -12,7 +12,7 @@ inherit g-sorcery gs-elpa
 
 DESCRIPTION="Monitor org-clock from D-Bus"
 
-HOMEPAGE="https://github.com/pjones/org-clock-db"
+HOMEPAGE="https://github.com/pjones/org-clock-dbus"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
