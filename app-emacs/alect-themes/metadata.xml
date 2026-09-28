@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Configurable light, dark and black themes for Emacs 24 or later</longdescription>
+	<longdescription>Configurable light, dark and black themes</longdescription>
 </pkgmetadata>
