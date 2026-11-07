@@ -12,7 +12,7 @@ inherit g-sorcery gs-elpa
 
 DESCRIPTION="Running bitbake from emacs"
 
-HOMEPAGE="https://github.com/canatella/bitbake-el"
+HOMEPAGE="https://github.com/danielcmccarthy/bitbake-el"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
