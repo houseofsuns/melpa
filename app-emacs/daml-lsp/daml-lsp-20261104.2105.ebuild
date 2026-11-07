@@ -18,13 +18,7 @@ SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/daml-mode
-	app-emacs/dash
-	app-emacs/f
-	app-emacs/ht
+DEPEND="app-emacs/dash
 	app-emacs/lsp-mode"
-RDEPEND="app-emacs/daml-mode
-	app-emacs/dash
-	app-emacs/f
-	app-emacs/ht
+RDEPEND="app-emacs/dash
 	app-emacs/lsp-mode"
