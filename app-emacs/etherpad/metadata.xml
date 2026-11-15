@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Interface to the Etherpad API</longdescription>
+	<longdescription>Collaborative editing via Etherpad</longdescription>
 </pkgmetadata>

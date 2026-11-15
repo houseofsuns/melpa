@@ -5,20 +5,18 @@ EAPI=8
 
 REPO_URI="https://melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="quelpa-use-package"
+REALNAME="etherpad"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Quelpa handler for use-package"
+DESCRIPTION="Collaborative editing via Etherpad"
 
-HOMEPAGE="https://github.com/quelpa/quelpa-use-package"
+HOMEPAGE="https://codeberg.org/zzkt/ethermacs"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/quelpa
-	app-emacs/use-package"
-RDEPEND="app-emacs/quelpa
-	app-emacs/use-package"
+DEPEND="app-emacs/websocket"
+RDEPEND="app-emacs/websocket"
