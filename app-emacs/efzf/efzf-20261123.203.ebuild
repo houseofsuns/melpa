@@ -5,18 +5,18 @@ EAPI=8
 
 REPO_URI="https://melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="autobuild"
+REALNAME="efzf"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Define and execute build rules and compilation pipelines"
+DESCRIPTION="Fzf-like command-line selector using completing-read"
 
-HOMEPAGE="https://github.com/erjoalgo/autobuild"
+HOMEPAGE="https://github.com/yoshinari-nomura/efzf"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/selcand"
-RDEPEND="app-emacs/selcand"
+DEPEND=""
+RDEPEND=""

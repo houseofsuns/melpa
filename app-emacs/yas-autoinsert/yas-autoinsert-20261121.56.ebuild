@@ -5,18 +5,18 @@ EAPI=8
 
 REPO_URI="https://melpa.org/packages/"
 SOURCE_TYPE="tar"
-REALNAME="discover-my-major"
+REALNAME="yas-autoinsert"
 DIGEST_SOURCES="yes"
 
 inherit g-sorcery gs-elpa
 
-DESCRIPTION="Discover key bindings and their meaning for the current Emacs major mode"
+DESCRIPTION="Autoinsert trigger for YASnippet"
 
-HOMEPAGE="https://framagit.org/steckerhalter/discover-my-major"
+HOMEPAGE="https://gitlab.com/rchastel1/yas-autoinsert"
 SRC_URI="${REPO_URI}${REALNAME}-${PV}.${SUFFIX}"
 
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 
-DEPEND="app-emacs/makey"
-RDEPEND="app-emacs/makey"
+DEPEND="app-emacs/yasnippet"
+RDEPEND="app-emacs/yasnippet"
