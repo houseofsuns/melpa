@@ -5,5 +5,5 @@
 		<email>gentoo@houseofsuns.org</email>
 		<name>Markus Walter</name>
 	</maintainer>
-	<longdescription>Emacs major mode for Extempore source files</longdescription>
+	<longdescription>Major mode for Extempore source files</longdescription>
 </pkgmetadata>
